@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran Mahasiswa</title>
+</head>
+<body>
+    <h1>Formulir Pendaftaran Mahasiswa</h1>
+    <form action="#" method="post">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="jenis-kelamin">Jenis Kelamin:</label>
+        <select id="jenis-kelamin" name="jenis-kelamin" required>
+            <option value="">Pilih Jenis Kelamin</option>
+            <option value="laki-laki">Laki-laki</option>
+            <option value="perempuan">Perempuan</option>
+        </select><br><br>
+
+        <label for="hobi">Hobi:</label>
+        <input type="checkbox" id="hobi1" name="hobi" value="membaca">
+        <label for="hobi1">Membaca</label>
+        <input type="checkbox" id="hobi2" name="hobi" value="menulis">
+        <label for="hobi2">Menulis</label>
+        <input type="checkbox" id="hobi3" name="hobi" value="olahraga">
+        <label for="hobi3">Olahraga</label><br><br>
+
+        <label for=""pendidikan">Pendidikan Terakhir:</label>
+        <input type="radio" id="pendidikan  1" name="pendidikan" value="sma">
+        <label for="pendidikan  1">SMA</label>
+        <input type="radio" id="pendidikan  2" name="pendidikan" value="diploma">
+        <label for="pendidikan  2">Diploma</label>
+        <input type="radio" id="pendidikan  3" name="pendidikan" value="sarjana">
+        <label for="pendidikan  3">Sarjana</label><br><br>
+
+        <label for="kritik-dan-saran">Kritik dan Saran:</label><br>
+        <textarea id="kritik-dan-saran" name="kritik-dan-saran" rows="4" cols="50"></textarea><br><br>
+
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
